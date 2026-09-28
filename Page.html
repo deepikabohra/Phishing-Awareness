@@ -1,0 +1,315 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cybersecurity Awareness Exercise</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.container{
+    max-width:1000px;
+    width:100%;
+    background:#ffffff;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow:0 25px 70px rgba(0,0,0,0.35);
+}
+
+.header{
+    background:linear-gradient(135deg,#16a34a,#22c55e);
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+.shield{
+    font-size:70px;
+    margin-bottom:15px;
+}
+
+.header h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.header p{
+    font-size:18px;
+    opacity:.95;
+}
+
+.content{
+    padding:40px;
+}
+
+.alert-box{
+    background:#ecfdf5;
+    border-left:6px solid #22c55e;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:30px;
+}
+
+.alert-box h2{
+    color:#166534;
+    margin-bottom:10px;
+}
+
+.alert-box p{
+    color:#444;
+    line-height:1.8;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    margin-top:25px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    border:1px solid #ececec;
+}
+
+.card h3{
+    color:#1e293b;
+    margin-bottom:15px;
+}
+
+.card ul{
+    list-style:none;
+}
+
+.card ul li{
+    padding:10px 0;
+    color:#555;
+}
+
+.red-flags{
+    background:#fff7ed;
+    border:1px solid #fed7aa;
+}
+
+.red-flags h3{
+    color:#c2410c;
+}
+
+.tips{
+    background:#eff6ff;
+    border:1px solid #bfdbfe;
+}
+
+.tips h3{
+    color:#1d4ed8;
+}
+
+.score{
+    margin-top:30px;
+    background:#f8fafc;
+    border-radius:20px;
+    padding:25px;
+}
+
+.score h3{
+    margin-bottom:20px;
+    color:#334155;
+}
+
+.progress{
+    width:100%;
+    height:18px;
+    background:#e2e8f0;
+    border-radius:50px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    width:75%;
+    height:100%;
+    background:linear-gradient(90deg,#f59e0b,#ef4444);
+}
+
+.score-text{
+    margin-top:15px;
+    font-weight:600;
+    color:#e11d48;
+    text-align:center;
+}
+
+.result-table{
+    margin-top:20px;
+}
+
+.result-item{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+}
+
+.result-item:last-child{
+    border-bottom:none;
+}
+
+.footer{
+    text-align:center;
+    padding:35px;
+}
+
+.button{
+    display:inline-block;
+    padding:18px 50px;
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:white;
+    text-decoration:none;
+    border-radius:60px;
+    font-weight:600;
+    box-shadow:0 10px 25px rgba(37,99,235,0.35);
+    transition:.3s;
+}
+
+.button:hover{
+    transform:translateY(-3px);
+}
+
+.note{
+    margin-top:20px;
+    color:#64748b;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <div class="shield">🛡️</div>
+
+        <h1>Cybersecurity Awareness Exercise</h1>
+
+        <p>This was a simulated phishing campaign</p>
+
+    </div>
+
+    <div class="content">
+
+        <div class="alert-box">
+
+            <h2>What Happened?</h2>
+
+            <p>
+                The Diwali Gift Selection email you interacted with was part of an internal cybersecurity awareness exercise.
+                Attackers frequently use rewards, gifts, vouchers, bonuses and festive offers to persuade employees to click links and engage with fraudulent websites.
+            </p>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="card red-flags">
+
+                <h3>🚩 Red Flags in the Email</h3>
+
+                <ul>
+                    <li>⚠ Urgent response deadline</li>
+                    <li>⚠ Request to click a link</li>
+                    <li>⚠ Attractive reward/gift offer</li>
+                    <li>⚠ Unexpected action requested</li>
+                    <li>⚠ External web page interaction</li>
+                </ul>
+
+            </div>
+
+            <div class="card tips">
+
+                <h3>✅ Security Best Practices</h3>
+
+                <ul>
+                    <li>✔ Verify the sender before acting</li>
+                    <li>✔ Inspect links before clicking</li>
+                    <li>✔ Be cautious of urgency tactics</li>
+                    <li>✔ Report suspicious emails</li>
+                    <li>✔ Contact IT/ISMS Team directly when unsure</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="score">
+
+            <h3>Your Exercise Result</h3>
+
+            <div class="result-table">
+
+                <div class="result-item">
+                    <span>Email Opened</span>
+                    <span>✅</span>
+                </div>
+
+                <div class="result-item">
+                    <span>Link Clicked</span>
+                    <span>✅</span>
+                </div>
+
+                <div class="result-item">
+                    <span>Form Submitted</span>
+                    <span>✅</span>
+                </div>
+
+            </div>
+
+            <div style="margin-top:20px;">
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+
+                <div class="score-text">
+                    Awareness Opportunity Identified
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        
+        
+
+        <div class="note">
+            Thank you for participating in this awareness exercise.<br/>
+            Information Security Team <br/>
+            Interface Microsystems
+        </div>
+
+    </div>
+
+</div>
+
+
+</body></html>
